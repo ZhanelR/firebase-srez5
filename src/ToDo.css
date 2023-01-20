@@ -1,0 +1,27 @@
+.todocont {
+    display: flex;
+}
+
+.tododelete {
+    margin-top: -20px;
+    margin-right: 40px;
+}
+
+#checkbox:checked ~ #text {
+    text-decoration: line-through;
+}
+
+/* .todoDone {
+    text-decoration: line-through;
+} */
+
+
+.content-container {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border:5px solid black;
+    padding: 5px;
+}
